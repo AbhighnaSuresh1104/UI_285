@@ -1,1354 +1,1333 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2706
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
-{\colortbl;\red255\green255\blue255;\red223\green97\blue7;\red43\green54\blue61;\red20\green119\blue226;
-\red230\green87\blue68;\red218\green117\blue7;\red39\green159\blue64;\red121\green34\blue230;\red155\green169\blue186;
+.btn,
+.navbar .navbar-nav>a.btn {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 10px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #888888;
+  color: #FFFFFF;
 }
-{\*\expandedcolortbl;;\cssrgb\c90588\c46275\c0;\cssrgb\c22353\c27451\c30588;\cssrgb\c6275\c55294\c90980;
-\cssrgb\c92941\c43137\c33333;\cssrgb\c89020\c53333\c0;\cssrgb\c16471\c67059\c31765;\cssrgb\c55294\c26667\c92157;\cssrgb\c67059\c72157\c77647;
-}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-.btn\cf3 ,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3  \{\
-  \cf4 border-width\cf3 : \cf5 2px\cf3 ;\
-  \cf4 font-weight\cf3 : \cf5 400\cf3 ;\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-  \cf4 line-height\cf3 : \cf5 1.35em\cf3 ;\
-  \cf4 margin\cf3 : \cf5 10px\cf3  \cf5 1px\cf3 ;\
-  \cf4 border\cf3 : none;\
-  \cf4 border-radius\cf3 : \cf5 0.1875rem\cf3 ;\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 22px\cf3 ;\
-  \cf4 cursor\cf3 : pointer;\
-  \cf4 background-color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .btn\cf3 :hover,\
-\cf2 .btn\cf3 :focus,\
-\cf2 .btn\cf3 :not(:disabled):not(.disabled):active,\
-\cf2 .btn\cf3 :not(:disabled):not(.disabled):active:focus,\
-\cf2 .btn\cf3 :active:hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :not(:disabled):not(.disabled):active,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :not(:disabled):not(.disabled):active:focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :active:hover \{\
-  \cf4 background-color\cf3 : \cf5 #979797\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 box-shadow\cf3 : none;\
-\}\
-\
-\cf2 .btn\cf3 :hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :hover \{\
-  \cf4 box-shadow\cf3 : \cf5 0\cf3  \cf5 3px\cf3  \cf5 8px\cf3  \cf5 0\cf3  \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.17\cf3 );\
-\}\
-\
-\cf2 .btn\cf3 :disabled,\
-\cf2 .btn\cf3 :disabled:hover,\
-\cf2 .btn\cf3 :disabled:focus,\
-\cf2 .btn\cf3 :disabled:active,\
-\cf2 .btn\cf3 [disabled],\
-\cf2 .btn\cf3 [disabled]:hover,\
-\cf2 .btn\cf3 [disabled]:focus,\
-\cf2 .btn\cf3 [disabled]:active,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :disabled,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :disabled:hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :disabled:focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :disabled:active,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 [disabled],\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 [disabled]:hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 [disabled]:focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 [disabled]:active \{\
-  \cf4 background-color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 border-color\cf3 : \cf5 #888888\cf3 ;\
-\}\
-\
-\cf2 .btn\cf3 :hover,\
-\cf2 .btn\cf3 :focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :focus \{\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-  \cf4 outline\cf3 : \cf5 0\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .btn\cf3 :active,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :active \{\
-  \cf4 -webkit-box-shadow\cf3 : none;\
-  \cf4 box-shadow\cf3 : none;\
-  \cf4 outline\cf3 : \cf5 0\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .btn\cf3 :not(.btn-icon) \cf2 .now-ui-icons\cf3 ,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3 >\cf2 a.btn\cf3 :not(.btn-icon) \cf2 .now-ui-icons\cf3  \{\
-  \cf4 position\cf3 : relative;\
-  \cf4 top\cf3 : \cf5 1px\cf3 ;\
-\}\
-\
-\cf2 .btn-primary\cf3  \{\
-  \cf4 background-color\cf3 : \cf5 #f96332\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .btn-primary\cf3 :hover,\
-\cf2 .btn-primary\cf3 :focus,\
-\cf2 .btn-primary\cf3 :not(:disabled):not(.disabled):active,\
-\cf2 .btn-primary\cf3 :not(:disabled):not(.disabled):active:focus,\
-\cf2 .btn-primary\cf3 :active:hover \{\
-  \cf4 background-color\cf3 : \cf5 #fa7a50\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 box-shadow\cf3 : none;\
-\}\
-\
-\cf2 .btn-primary\cf3 :hover \{\
-  \cf4 box-shadow\cf3 : \cf5 0\cf3  \cf5 3px\cf3  \cf5 8px\cf3  \cf5 0\cf3  \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.17\cf3 );\
-\}\
-\
-\cf2 .btn-primary\cf3 :disabled,\
-\cf2 .btn-primary\cf3 :disabled:hover,\
-\cf2 .btn-primary\cf3 :disabled:focus,\
-\cf2 .btn-primary\cf3 :disabled:active,\
-\cf2 .btn-primary\cf3 [disabled],\
-\cf2 .btn-primary\cf3 [disabled]:hover,\
-\cf2 .btn-primary\cf3 [disabled]:focus,\
-\cf2 .btn-primary\cf3 [disabled]:active \{\
-  \cf4 background-color\cf3 : \cf5 #f96332\cf3 ;\
-  \cf4 border-color\cf3 : \cf5 #f96332\cf3 ;\
-\}\
-\
-\cf2 .btn-round\cf3  \{\
-  \cf4 border-width\cf3 : \cf5 1px\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 30px\cf3  \cf6 !important\cf3 ;\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 23px\cf3 ;\
-\}\
-\
-\cf2 .btn-lg\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 1em\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 0.25rem\cf3 ;\
-  \cf4 padding\cf3 : \cf5 15px\cf3  \cf5 48px\cf3 ;\
-\}\
-\
-\cf2 .form-control\cf3 ::-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 0.8\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 80\cf3 );\
-\}\
-\
-\cf2 .form-control\cf3 :-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 0.8\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 80\cf3 );\
-\}\
-\
-\cf2 .form-control\cf3 ::-webkit-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 0.8\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 80\cf3 );\
-\}\
-\
-\cf2 .form-control\cf3 :-ms-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 0.8\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 80\cf3 );\
-\}\
-\
-\cf2 .form-control\cf3  \{\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border\cf3 : \cf5 1px\cf3  solid \cf5 #E3E3E3\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 30px\cf3 ;\
-  \cf4 color\cf3 : \cf5 #2c2c2c\cf3 ;\
-  \cf4 line-height\cf3 : normal;\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-  \cf4 -webkit-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -moz-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -o-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -ms-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -webkit-box-shadow\cf3 : none;\
-  \cf4 box-shadow\cf3 : none;\
-\}\
-\
-\cf2 .form-control\cf3 :focus \{\
-  \cf4 border\cf3 : \cf5 1px\cf3  solid \cf5 #f96332\cf3 ;\
-  \cf4 -webkit-box-shadow\cf3 : none;\
-  \cf4 box-shadow\cf3 : none;\
-  \cf4 outline\cf3 : \cf5 0\cf3  \cf6 !important\cf3 ;\
-  \cf4 color\cf3 : \cf5 #2c2c2c\cf3 ;\
-\}\
-\
-\cf2 .form-control\cf3 :focus+.input-group-text,\
-\cf2 .form-control\cf3 :focus~\cf2 .input-group-text\cf3  \{\
-  \cf4 border\cf3 : \cf5 1px\cf3  solid \cf5 #f96332\cf3 ;\
-  \cf4 border-left\cf3 : none;\
-  \cf4 background-color\cf3 : transparent;\
-\}\
-\
-\cf2 .input-group.no-border.input-lg\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 15px\cf3  \cf5 0\cf3  \cf5 15px\cf3  \cf5 19px\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border.input-lg\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 23px\cf3  \cf5 19px\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border.input-lg\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 15px\cf3  \cf5 19px\cf3  \cf5 15px\cf3  \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .input-group.input-lg\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 14px\cf3  \cf5 18px\cf3 ;\
-\}\
-\
-\cf2 .input-group.input-lg\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 14px\cf3  \cf5 18px\cf3  \cf5 14px\cf3  \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .input-group.input-lg\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 14px\cf3  \cf5 0\cf3  \cf5 15px\cf3  \cf5 18px\cf3 ;\
-\}\
-\
-\cf2 .input-group.input-lg\cf3  \cf2 .input-group-text\cf3 +\cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 15px\cf3  \cf5 18px\cf3  \cf5 15px\cf3  \cf5 16px\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 19px\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 19px\cf3  \cf5 11px\cf3  \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 0\cf3  \cf5 11px\cf3  \cf5 19px\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 10px\cf3  \cf5 18px\cf3  \cf5 10px\cf3  \cf5 18px\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 10px\cf3  \cf5 18px\cf3  \cf5 10px\cf3  \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 padding\cf3 : \cf5 10px\cf3  \cf5 0\cf3  \cf5 10px\cf3  \cf5 18px\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .input-group-text\cf3 +\cf2 .form-control\cf3 ,\
-\cf2 .input-group\cf3  \cf2 .input-group-text\cf3 ~\cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : \cf5 10px\cf3  \cf5 19px\cf3  \cf5 11px\cf3  \cf5 16px\cf3 ;\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 ,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.3\cf3 );\
-  \cf4 border\cf3 : medium none;\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :focus,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active,\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active \{\
-  \cf4 border\cf3 : medium none;\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.5\cf3 );\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus+.input-group-text \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.5\cf3 );\
-\}\
-\
-\cf2 .input-group.no-border\cf3  \cf2 .input-group-prepend\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.3\cf3 );\
-  \cf4 border\cf3 : none;\
-  \cf4 border-left\cf3 : transparent \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 border\cf3 : \cf5 1px\cf3  solid \cf5 #E3E3E3\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 30px\cf3 ;\
-  \cf4 color\cf3 : \cf5 #555555\cf3 ;\
-  \cf4 -webkit-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -moz-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -o-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 -ms-transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-  \cf4 transition\cf3 : color \cf5 0.3s\cf3  ease-in-out, border-color \cf5 0.3s\cf3  ease-in-out, background-color \cf5 0.3s\cf3  ease-in-out;\
-\}\
-\
-\cf2 .input-group-text\cf3 +\cf2 .form-control\cf3 ,\
-\cf2 .input-group-text\cf3 ~\cf2 .form-control\cf3  \{\
-  \cf4 padding\cf3 : -\cf5 0.5rem\cf3  \cf5 0.7rem\cf3 ;\
-  \cf4 padding-left\cf3 : \cf5 18px\cf3 ;\
-\}\
-\
-\cf2 .input-group-text\cf3  \cf2 i\cf3  \{\
-  \cf4 width\cf3 : \cf5 17px\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \{\
-  \cf4 margin-bottom\cf3 : \cf5 10px\cf3 ;\
-  \cf4 position\cf3 : relative;\
-\}\
-\
-\cf2 .input-group\cf3 [disabled] \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf5 #E3E3E3\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .input-group-prepend\cf3  \{\
-  \cf4 margin-right\cf3 : \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .input-group-prepend\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 border-left\cf3 : \cf5 1px\cf3  solid \cf5 #E3E3E3\cf3 ;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .form-control\cf3 :first-child,\
-\cf2 .input-group-text\cf3 :first-child \{\
-  \cf4 border-right\cf3 : \cf5 0\cf3  none;\
-\}\
-\
-\cf2 .input-group\cf3  \cf2 .form-control\cf3 :last-child,\
-\cf2 .input-group-text\cf3 :last-child \{\
-  \cf4 border-left\cf3 : \cf5 0\cf3  none;\
-\}\
-\
-\cf2 .form-control\cf3 [disabled],\
-\cf2 .form-control\cf3 [readonly] \{\
-  \cf4 background-color\cf3 : \cf5 #E3E3E3\cf3 ;\
-  \cf4 color\cf3 : \cf5 #888888\cf3 ;\
-  \cf4 cursor\cf3 : not-allowed;\
-\}\
-\
-\cf2 button\cf3 ,\
-\cf2 input\cf3  \{\
-  \cf4 font-family\cf3 : \cf7 "Montserrat"\cf3 , \cf7 "Helvetica Neue"\cf3 , Arial, sans-serif;\
-\}\
-\
-\cf2 h6\cf3  \{\
-  \cf4 font-weight\cf3 : \cf5 400\cf3 ;\
-\}\
-\
-\cf2 a\cf3  \{\
-  \cf4 color\cf3 : \cf5 #f96332\cf3 ;\
-\}\
-\
-\cf2 a\cf3 :hover,\
-\cf2 a\cf3 :focus \{\
-  \cf4 color\cf3 : \cf5 #f96332\cf3 ;\
-\}\
-\
-\cf2 h6\cf3 ,\
-\cf2 .h6\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 0.9em\cf3 ;\
-  \cf4 font-weight\cf3 : \cf5 700\cf3 ;\
-  \cf4 text-transform\cf3 : uppercase;\
-\}\
-\
-\cf2 p\cf3  \{\
-  \cf4 line-height\cf3 : \cf5 1.61em\cf3 ;\
-  \cf4 font-weight\cf3 : \cf5 300\cf3 ;\
-  \cf4 font-size\cf3 : \cf5 1.2em\cf3 ;\
-\}\
-\
-\cf2 .title\cf3  \{\
-  \cf4 font-weight\cf3 : \cf5 700\cf3 ;\
-  \cf4 padding-top\cf3 : \cf5 30px\cf3 ;\
-\}\
-\
-\cf2 body\cf3  \{\
-  \cf4 color\cf3 : \cf5 #2c2c2c\cf3 ;\
-  \cf4 font-size\cf3 : \cf5 14px\cf3 ;\
-  \cf4 font-family\cf3 : \cf7 "Montserrat"\cf3 , \cf7 "Helvetica Neue"\cf3 , Arial, sans-serif;\
-  \cf4 overflow-x\cf3 : hidden;\
-  \cf4 -moz-osx-font-smoothing\cf3 : grayscale;\
-  \cf4 -webkit-font-smoothing\cf3 : antialiased;\
-\}\
-\
-\cf2 .nav-item\cf3  \cf2 .nav-link\cf3 ,\
-\cf2 .navbar\cf3  \{\
-  \cf4 -webkit-transition\cf3 : all \cf5 300ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -moz-transition\cf3 : all \cf5 300ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -o-transition\cf3 : all \cf5 300ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -ms-transition\cf3 : all \cf5 300ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 transition\cf3 : all \cf5 300ms\cf3  ease \cf5 0s\cf3 ;\
-\}\
-\
-\cf2 .card\cf3  \cf2 a\cf3  \{\
-  \cf4 -webkit-transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -moz-transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -o-transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -ms-transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-\}\
-\
-\cf2 .dropdown-toggle\cf3 :after,\
-[data-toggle=\cf7 "collapse"\cf3 ][data-parent=\cf7 "#accordion"\cf3 ] \cf2 i\cf3  \{\
-  \cf4 -webkit-transition\cf3 : transform \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -moz-transition\cf3 : transform \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -o-transition\cf3 : transform \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 -ms-transition\cf3 : all \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-  \cf4 transition\cf3 : transform \cf5 150ms\cf3  ease \cf5 0s\cf3 ;\
-\}\
-\
-\cf2 .dropdown-toggle\cf3 [aria-expanded=\cf7 "true"\cf3 ]:after,\
-[data-toggle=\cf7 "collapse"\cf3 ][data-parent=\cf7 "#accordion"\cf3 ][aria-expanded=\cf7 "true"\cf3 ] \cf2 i\cf3  \{\
-  \cf4 filter\cf3 : progid:DXImageTransform.Microsoft.\cf6 BasicImage\cf3 (rotation=\cf5 2\cf3 );\
-  \cf4 -webkit-transform\cf3 : \cf6 rotate\cf3 (\cf5 180deg\cf3 );\
-  \cf4 -ms-transform\cf3 : \cf6 rotate\cf3 (\cf5 180deg\cf3 );\
-  \cf4 transform\cf3 : \cf6 rotate\cf3 (\cf5 180deg\cf3 );\
-\}\
-\
-\cf2 .button-bar\cf3  \{\
-  \cf4 display\cf3 : block;\
-  \cf4 position\cf3 : relative;\
-  \cf4 width\cf3 : \cf5 22px\cf3 ;\
-  \cf4 height\cf3 : \cf5 1px\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 1px\cf3 ;\
-  \cf4 background\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .button-bar\cf3 +\cf2 .button-bar\cf3  \{\
-  \cf4 margin-top\cf3 : \cf5 7px\cf3 ;\
-\}\
-\
-\cf2 .button-bar\cf3 :nth-child(2) \{\
-  \cf4 width\cf3 : \cf5 17px\cf3 ;\
-\}\
-\
-\cf2 .pull-left\cf3  \{\
-  \cf4 float\cf3 : left;\
-\}\
-\
-\cf2 .pull-right\cf3  \{\
-  \cf4 float\cf3 : right;\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf8 @font-face\cf3  \{\
-  \cf4 font-family\cf3 : \cf7 'Nucleo Outline'\cf3 ;\
-  \cf4 src\cf3 : \cf6 url\cf3 (\cf7 "../fonts/nucleo-outline.eot"\cf3 );\
-  \cf4 src\cf3 : \cf6 url\cf3 (\cf7 "../fonts/nucleo-outline.eot"\cf3 ) \cf6 format\cf3 (\cf7 "embedded-opentype"\cf3 ), \cf6 url\cf3 (\cf7 "../fonts/nucleo-outline.woff2"\cf3 ) \cf6 format\cf3 (\cf7 "woff2"\cf3 ), \cf6 url\cf3 (\cf7 "../fonts/nucleo-outline.woff"\cf3 ) \cf6 format\cf3 (\cf7 "woff"\cf3 ), \cf6 url\cf3 (\cf7 "../fonts/nucleo-outline.ttf"\cf3 ) \cf6 format\cf3 (\cf7 "truetype"\cf3 );\
-  \cf4 font-weight\cf3 : normal;\
-  \cf4 font-style\cf3 : normal;\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 .now-ui-icons\cf3  \{\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 font\cf3 : normal normal normal \cf5 14px\cf3 /\cf5 1\cf3  \cf7 'Nucleo Outline'\cf3 ;\
-  \cf4 font-size\cf3 : inherit;\
-  \cf4 speak\cf3 : none;\
-  \cf4 text-transform\cf3 : none;\
-  \cf4 -webkit-font-smoothing\cf3 : antialiased;\
-  \cf4 -moz-osx-font-smoothing\cf3 : grayscale;\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf8 @-webkit-keyframes\cf3  nc-icon-spin \{\
-  0% \{\
-    \cf4 -webkit-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-  \}\
-\
-  100% \{\
-    \cf4 -webkit-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-  \}\
-\}\
-\
-\cf8 @-moz-keyframes\cf3  nc-icon-spin \{\
-  0% \{\
-    \cf4 -moz-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-  \}\
-\
-  100% \{\
-    \cf4 -moz-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-  \}\
-\}\
-\
-\cf8 @keyframes\cf3  nc-icon-spin \{\
-  0% \{\
-    \cf4 -webkit-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-    \cf4 -moz-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-    \cf4 -ms-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-    \cf4 -o-transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-    \cf4 transform\cf3 : \cf6 rotate\cf3 (\cf5 0deg\cf3 );\
-  \}\
-\
-  100% \{\
-    \cf4 -webkit-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-    \cf4 -moz-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-    \cf4 -ms-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-    \cf4 -o-transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-    \cf4 transform\cf3 : \cf6 rotate\cf3 (\cf5 360deg\cf3 );\
-  \}\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 .now-ui-icons.text_caps-small\cf3 :before \{\
-  \cf4 content\cf3 : \cf7 "\\ea1b"\cf3 ;\
-\}\
-\
-\cf2 .now-ui-icons.users_circle-08\cf3 :before \{\
-  \cf4 content\cf3 : \cf7 "\\ea23"\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \{\
-  \cf4 padding-top\cf3 : \cf5 0.625rem\cf3 ;\
-  \cf4 padding-bottom\cf3 : \cf5 0.625rem\cf3 ;\
-  \cf4 min-height\cf3 : \cf5 53px\cf3 ;\
-  \cf4 margin-bottom\cf3 : \cf5 20px\cf3 ;\
-  \cf4 box-shadow\cf3 : \cf5 0px\cf3  \cf5 0px\cf3  \cf5 20px\cf3  \cf5 0px\cf3  \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.15\cf3 );\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 a\cf3  \{\
-  \cf4 vertical-align\cf3 : middle;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 a\cf3 :not(.btn):not(.dropdown-item) \{\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 p\cf3  \{\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 margin\cf3 : \cf5 0\cf3 ;\
-  \cf4 line-height\cf3 : \cf5 21px\cf3 ;\
-  \cf4 font-weight\cf3 : inherit;\
-  \cf4 font-size\cf3 : inherit;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link.btn\cf3  \{\
-  \cf4 padding\cf3 : \cf5 11px\cf3  \cf5 22px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link.btn.btn-lg\cf3  \{\
-  \cf4 padding\cf3 : \cf5 15px\cf3  \cf5 48px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \{\
-  \cf4 text-transform\cf3 : uppercase;\
-  \cf4 font-size\cf3 : \cf5 0.7142em\cf3 ;\
-  \cf4 padding\cf3 : \cf5 0.5rem\cf3  \cf5 0.7rem\cf3 ;\
-  \cf4 line-height\cf3 : \cf5 1.625rem\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \cf2 i.fab\cf3 +\cf2 p\cf3 ,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \cf2 i.now-ui-icons\cf3 +\cf2 p\cf3  \{\
-  \cf4 margin-left\cf3 : \cf5 3px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \cf2 i.fab\cf3 ,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \cf2 i.now-ui-icons\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 18px\cf3 ;\
-  \cf4 position\cf3 : relative;\
-  \cf4 top\cf3 : \cf5 3px\cf3 ;\
-  \cf4 text-align\cf3 : center;\
-  \cf4 width\cf3 : \cf5 21px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3 :not(.btn) \cf2 i.now-ui-icons\cf3  \{\
-  \cf4 top\cf3 : \cf5 4px\cf3 ;\
-  \cf4 font-size\cf3 : \cf5 16px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-item\cf3  \cf2 .nav-link\cf3 :not(.btn):focus,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-item\cf3  \cf2 .nav-link\cf3 :not(.btn):hover,\
-\cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \cf2 .nav-item\cf3  \cf2 .nav-link\cf3 :not(.btn):active \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 border-radius\cf3 : \cf5 0.1875rem\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .logo-container\cf3  \{\
-  \cf4 width\cf3 : \cf5 27px\cf3 ;\
-  \cf4 height\cf3 : \cf5 27px\cf3 ;\
-  \cf4 overflow\cf3 : hidden;\
-  \cf4 margin\cf3 : \cf5 0\cf3  auto;\
-  \cf4 border-radius\cf3 : \cf5 50%\cf3 ;\
-  \cf4 border\cf3 : \cf5 1px\cf3  solid transparent;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-brand\cf3  \{\
-  \cf4 text-transform\cf3 : uppercase;\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-  \cf4 padding-top\cf3 : \cf5 0.5rem\cf3 ;\
-  \cf4 padding-bottom\cf3 : \cf5 0.5rem\cf3 ;\
-  \cf4 line-height\cf3 : \cf5 1.625rem\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-toggler\cf3  \{\
-  \cf4 width\cf3 : \cf5 37px\cf3 ;\
-  \cf4 height\cf3 : \cf5 27px\cf3 ;\
-  \cf4 outline\cf3 : \cf5 0\cf3 ;\
-  \cf4 cursor\cf3 : pointer;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-toggler\cf3  \cf2 .navbar-toggler-bar.middle-bar\cf3  \{\
-  \cf4 width\cf3 : \cf5 17px\cf3 ;\
-  \cf4 transition\cf3 : width .\cf5 2s\cf3  linear;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .navbar-toggler\cf3 :hover \cf2 .navbar-toggler-bar.middle-bar\cf3  \{\
-  \cf4 width\cf3 : \cf5 22px\cf3 ;\
-\}\
-\
-\cf2 .navbar\cf3  \cf2 .button-dropdown\cf3  \cf2 .navbar-toggler-bar\cf3 :nth-child(2) \{\
-  \cf4 width\cf3 : \cf5 17px\cf3 ;\
-\}\
-\
-\cf2 .navbar.navbar-transparent\cf3  \{\
-  \cf4 background-color\cf3 : transparent \cf6 !important\cf3 ;\
-  \cf4 box-shadow\cf3 : none;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 padding-top\cf3 : \cf5 20px\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .bg-primary\cf3  \{\
-  \cf4 background-color\cf3 : \cf5 #f96332\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \{\
-  \cf4 border\cf3 : \cf5 0\cf3 ;\
-  \cf4 box-shadow\cf3 : \cf5 0px\cf3  \cf5 10px\cf3  \cf5 50px\cf3  \cf5 0px\cf3  \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.2\cf3 );\
-  \cf4 border-radius\cf3 : \cf5 0.125rem\cf3 ;\
-  \cf4 -webkit-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -moz-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -o-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -ms-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 font-size\cf3 : \cf5 14px\cf3 ;\
-\}\
-\
-\cf2 .dropdown\cf3  \cf2 .dropdown-menu\cf3  \{\
-  \cf4 -webkit-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0\cf3 , -\cf5 25px\cf3 , \cf5 0\cf3 ) \cf6 !important\cf3 ;\
-  \cf4 -moz-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0\cf3 , -\cf5 25px\cf3 , \cf5 0\cf3 ) \cf6 !important\cf3 ;\
-  \cf4 -o-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0\cf3 , -\cf5 25px\cf3 , \cf5 0\cf3 ) \cf6 !important\cf3 ;\
-  \cf4 -ms-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0\cf3 , -\cf5 25px\cf3 , \cf5 0\cf3 ) \cf6 !important\cf3 ;\
-  \cf4 transform\cf3 : \cf6 translate3d\cf3 (\cf5 0\cf3 , -\cf5 25px\cf3 , \cf5 0\cf3 ) \cf6 !important\cf3 ;\
-  \cf4 visibility\cf3 : hidden;\
-  \cf4 display\cf3 : block;\
-  \cf4 opacity\cf3 : \cf5 0\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 0\cf3 );\
-  \cf4 top\cf3 : \cf5 100%\cf3  \cf6 !important\cf3 ;\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-  \cf4 padding-top\cf3 : .\cf5 6rem\cf3 ;\
-  \cf4 padding-bottom\cf3 : .\cf5 6rem\cf3 ;\
-  \cf4 margin-top\cf3 : \cf5 5px\cf3 ;\
-  \cf4 -webkit-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -moz-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -o-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 -ms-transition\cf3 : all \cf5 150ms\cf3  linear;\
-  \cf4 transition\cf3 : all \cf5 150ms\cf3  linear;\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :hover,\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :focus \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.3\cf3 );\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :disabled \{\
-  \cf4 color\cf3 : \cf6 rgba\cf3 (\cf5 182\cf3 , \cf5 182\cf3 , \cf5 182\cf3 , \cf5 0.6\cf3 );\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :disabled:hover,\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :disabled:focus \{\
-  \cf4 background-color\cf3 : transparent;\
-\}\
-\
-\cf2 .dropdown-menu\cf3 :before \{\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 position\cf3 : absolute;\
-  \cf4 width\cf3 : \cf5 0\cf3 ;\
-  \cf4 height\cf3 : \cf5 0\cf3 ;\
-  \cf4 vertical-align\cf3 : middle;\
-  \cf4 content\cf3 : \cf7 ""\cf3 ;\
-  \cf4 top\cf3 : -\cf5 5px\cf3 ;\
-  \cf4 left\cf3 : \cf5 10px\cf3 ;\
-  \cf4 right\cf3 : auto;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 border-bottom\cf3 : .\cf5 4em\cf3  solid;\
-  \cf4 border-right\cf3 : .\cf5 4em\cf3  solid transparent;\
-  \cf4 border-left\cf3 : .\cf5 4em\cf3  solid transparent;\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-divider\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 222\cf3 , \cf5 222\cf3 , \cf5 222\cf3 , \cf5 0.5\cf3 );\
-\}\
-\
-\cf2 .dropdown-menu\cf3  \cf2 .dropdown-header\cf3 :not([href]):not([tabindex]) \{\
-  \cf4 color\cf3 : \cf6 rgba\cf3 (\cf5 182\cf3 , \cf5 182\cf3 , \cf5 182\cf3 , \cf5 0.6\cf3 );\
-  \cf4 font-size\cf3 : \cf5 0.7142em\cf3 ;\
-  \cf4 text-transform\cf3 : uppercase;\
-  \cf4 font-weight\cf3 : \cf5 700\cf3 ;\
-\}\
-\
-\cf2 .button-dropdown\cf3  \{\
-  \cf4 padding-right\cf3 : \cf5 0.7rem\cf3 ;\
-  \cf4 cursor\cf3 : pointer;\
-\}\
-\
-\cf2 .button-dropdown\cf3  \cf2 .dropdown-toggle\cf3  \{\
-  \cf4 padding-top\cf3 : \cf5 0.5rem\cf3 ;\
-  \cf4 padding-bottom\cf3 : \cf5 0.5rem\cf3 ;\
-  \cf4 display\cf3 : block;\
-\}\
-\
-\cf2 .button-dropdown\cf3  \cf2 .dropdown-toggle\cf3 :after \{\
-  \cf4 display\cf3 : none;\
-\}\
-\
-\cf2 img\cf3  \{\
-  \cf4 max-width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 1px\cf3 ;\
-\}\
-\
-\cf2 .footer\cf3  \{\
-  \cf4 padding\cf3 : \cf5 24px\cf3  \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 nav\cf3  \{\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 float\cf3 : left;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 ul\cf3  \{\
-  \cf4 margin-bottom\cf3 : \cf5 0\cf3 ;\
-  \cf4 padding\cf3 : \cf5 0\cf3 ;\
-  \cf4 list-style\cf3 : none;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 ul\cf3  \cf2 li\cf3  \{\
-  \cf4 display\cf3 : inline-block;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 ul\cf3  \cf2 li\cf3  \cf2 a\cf3  \{\
-  \cf4 color\cf3 : inherit;\
-  \cf4 padding\cf3 : \cf5 0.5rem\cf3 ;\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-  \cf4 text-transform\cf3 : uppercase;\
-  \cf4 text-decoration\cf3 : none;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 ul\cf3  \cf2 li\cf3  \cf2 a\cf3 :hover \{\
-  \cf4 text-decoration\cf3 : none;\
-\}\
-\
-\cf2 .footer\cf3  \cf2 .copyright\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 0.8571em\cf3 ;\
-\}\
-\
-\cf2 .footer\cf3 :after \{\
-  \cf4 display\cf3 : table;\
-  \cf4 clear\cf3 : both;\
-  \cf4 content\cf3 : \cf7 " "\cf3 ;\
-\}\
-\
-\cf2 .card\cf3  \{\
-  \cf4 border\cf3 : \cf5 0\cf3 ;\
-  \cf4 border-radius\cf3 : \cf5 0.1875rem\cf3 ;\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 position\cf3 : relative;\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 margin-bottom\cf3 : \cf5 30px\cf3 ;\
-  \cf4 box-shadow\cf3 : \cf5 0px\cf3  \cf5 5px\cf3  \cf5 25px\cf3  \cf5 0px\cf3  \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.2\cf3 );\
-\}\
-\
-\cf2 .card\cf3  \cf2 .card-header\cf3  \{\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border-bottom\cf3 : \cf5 0\cf3 ;\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border-radius\cf3 : \cf5 0\cf3 ;\
-  \cf4 padding\cf3 : \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .card\cf3  \cf2 .card-footer\cf3  \{\
-  \cf4 padding\cf3 : \cf5 0\cf3 ;\
-  \cf4 margin-top\cf3 : \cf5 15px\cf3 ;\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border\cf3 : \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .card\cf3 [data-background-color=\cf7 "orange"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #f96332\cf3 ;\
-\}\
-\
-\cf2 .card\cf3 [data-background-color=\cf7 "red"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #FF3636\cf3 ;\
-\}\
-\
-\cf2 .card\cf3 [data-background-color=\cf7 "yellow"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #FFB236\cf3 ;\
-\}\
-\
-\cf2 .card\cf3 [data-background-color=\cf7 "blue"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #2CA8FF\cf3 ;\
-\}\
-\
-\cf2 .card\cf3 [data-background-color=\cf7 "green"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #15b60d\cf3 ;\
-\}\
-\
-\cf2 .card-plain\cf3  \{\
-  \cf4 background\cf3 : transparent;\
-  \cf4 box-shadow\cf3 : none;\
-\}\
-\
-\cf2 .card-plain\cf3  \cf2 .card-body\cf3 ,\
-\cf2 .card-plain\cf3  \cf2 .card-header\cf3  \{\
-  \cf4 padding-left\cf3 : \cf5 5px\cf3 ;\
-  \cf4 padding-right\cf3 : \cf5 5px\cf3 ;\
-\}\
-\
-\cf2 .card-plain\cf3  \cf2 .card-header\cf3 :after \{\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 left\cf3 : \cf5 0\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .page-header\cf3 :before \{\
-  \cf4 position\cf3 : absolute;\
-  \cf4 z-index\cf3 : \cf5 0\cf3 ;\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 height\cf3 : \cf5 100%\cf3 ;\
-  \cf4 display\cf3 : block;\
-  \cf4 left\cf3 : \cf5 0\cf3 ;\
-  \cf4 top\cf3 : \cf5 0\cf3 ;\
-  \cf4 content\cf3 : \cf7 ""\cf3 ;\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.5\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login\cf3  \{\
-  \cf4 border-radius\cf3 : \cf5 0.25rem\cf3 ;\
-  \cf4 padding-bottom\cf3 : \cf5 0.7rem\cf3 ;\
-  \cf4 max-width\cf3 : \cf5 320px\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login\cf3  \cf2 .logo-container\cf3  \{\
-  \cf4 width\cf3 : \cf5 65px\cf3 ;\
-  \cf4 margin\cf3 : \cf5 0\cf3  auto;\
-  \cf4 margin-bottom\cf3 : \cf5 55px\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login\cf3  \cf2 .logo-container\cf3  \cf2 img\cf3  \{\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login\cf3  \cf2 .input-group\cf3 :last-child \{\
-  \cf4 margin-bottom\cf3 : \cf5 40px\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3 ::-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3 :-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3 ::-webkit-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3 :-ms-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 border-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.5\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .form-control\cf3 :focus \{\
-  \cf4 border-color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.5\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus,\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active,\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :focus,\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active,\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus+.input-group-text \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-  \cf4 border\cf3 : none;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group-text\cf3 ,\
-\cf2 .login-page\cf3  \cf2 .card-login.card-plain\cf3  \cf2 .input-group.no-border\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.8\cf3 );\
-\}\
-\
-\cf2 .login-page\cf3  \cf2 .link\cf3  \{\
-  \cf4 font-size\cf3 : \cf5 10px\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 text-decoration\cf3 : none;\
-\}\
-\
-\cf2 .page-header\cf3  \{\
-  \cf4 min-height\cf3 : \cf5 100vh\cf3 ;\
-  \cf4 max-height\cf3 : \cf5 999px\cf3 ;\
-  \cf4 padding\cf3 : \cf5 0\cf3 ;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 position\cf3 : relative;\
-  \cf4 overflow\cf3 : hidden;\
-\}\
-\
-\cf2 .page-header\cf3 >\cf2 .content\cf3  \{\
-  \cf4 margin-top\cf3 : \cf5 12%\cf3 ;\
-  \cf4 text-align\cf3 : center;\
-  \cf4 margin-bottom\cf3 : \cf5 50px\cf3 ;\
-\}\
-\
-\cf2 .page-header\cf3 :before \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 0\cf3 , \cf5 0\cf3 , \cf5 0\cf3 , \cf5 0.3\cf3 );\
-\}\
-\
-\cf2 .page-header\cf3 >\cf2 .container\cf3  \{\
-  \cf4 z-index\cf3 : \cf5 2\cf3 ;\
-  \cf4 padding-top\cf3 : \cf5 12vh\cf3 ;\
-  \cf4 padding-bottom\cf3 : \cf5 40px\cf3 ;\
-\}\
-\
-\cf2 .page-header\cf3  \cf2 .page-header-image\cf3  \{\
-  \cf4 position\cf3 : absolute;\
-  \cf4 background-size\cf3 : cover;\
-  \cf4 background-position\cf3 : center center;\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 height\cf3 : \cf5 100%\cf3 ;\
-  \cf4 z-index\cf3 : -\cf5 1\cf3 ;\
-\}\
-\
-\cf2 .page-header\cf3  \cf2 footer\cf3  \{\
-  \cf4 position\cf3 : absolute;\
-  \cf4 bottom\cf3 : \cf5 0\cf3 ;\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-\}\
-\
-\cf2 .page-header\cf3  \cf2 .container\cf3  \{\
-  \cf4 height\cf3 : \cf5 100%\cf3 ;\
-  \cf4 z-index\cf3 : \cf5 1\cf3 ;\
-  \cf4 text-align\cf3 : center;\
-  \cf4 position\cf3 : relative;\
-\}\
-\
-\cf2 .page-header\cf3 :after,\
-\cf2 .page-header\cf3 :before \{\
-  \cf4 position\cf3 : absolute;\
-  \cf4 z-index\cf3 : \cf5 0\cf3 ;\
-  \cf4 width\cf3 : \cf5 100%\cf3 ;\
-  \cf4 height\cf3 : \cf5 100%\cf3 ;\
-  \cf4 display\cf3 : block;\
-  \cf4 left\cf3 : \cf5 0\cf3 ;\
-  \cf4 top\cf3 : \cf5 0\cf3 ;\
-  \cf4 content\cf3 : \cf7 ""\cf3 ;\
-\}\
-\
-\cf2 .clear-filter\cf3 :after,\
-\cf2 .clear-filter\cf3 :before \{\
-  \cf4 display\cf3 : none;\
-\}\
-\
-\cf2 .clear-filter\cf3 [filter-color=\cf7 "orange"\cf3 ] \{\
-  \cf4 background\cf3 : \cf6 rgba\cf3 (\cf5 44\cf3 , \cf5 44\cf3 , \cf5 44\cf3 , \cf5 0.2\cf3 );\
-  \cf4 background\cf3 : \cf6 -webkit-linear-gradient\cf3 (\cf5 90deg\cf3 , rgba(\cf5 44\cf3 , \cf5 44\cf3 , \cf5 44\cf3 , \cf5 0.2\cf3 ), \cf6 rgba\cf3 (\cf5 224\cf3 , \cf5 23\cf3 , \cf5 3\cf3 , \cf5 0.6\cf3 ));\
-  \cf4 background\cf3 : \cf6 -o-linear-gradient\cf3 (\cf5 90deg\cf3 , rgba(\cf5 44\cf3 , \cf5 44\cf3 , \cf5 44\cf3 , \cf5 0.2\cf3 ), \cf6 rgba\cf3 (\cf5 224\cf3 , \cf5 23\cf3 , \cf5 3\cf3 , \cf5 0.6\cf3 ));\
-  \cf4 background\cf3 : \cf6 -moz-linear-gradient\cf3 (\cf5 90deg\cf3 , rgba(\cf5 44\cf3 , \cf5 44\cf3 , \cf5 44\cf3 , \cf5 0.2\cf3 ), \cf6 rgba\cf3 (\cf5 224\cf3 , \cf5 23\cf3 , \cf5 3\cf3 , \cf5 0.6\cf3 ));\
-  \cf4 background\cf3 : \cf6 linear-gradient\cf3 (\cf5 0deg\cf3 , rgba(\cf5 44\cf3 , \cf5 44\cf3 , \cf5 44\cf3 , \cf5 0.2\cf3 ), \cf6 rgba\cf3 (\cf5 224\cf3 , \cf5 23\cf3 , \cf5 3\cf3 , \cf5 0.6\cf3 ));\
-\}\
-\
-[data-background-color=\cf7 "orange"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #e95e38\cf3 ;\
-\}\
-\
-[data-background-color=\cf7 "black"\cf3 ] \{\
-  \cf4 background-color\cf3 : \cf5 #2c2c2c\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \{\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .title\cf3 ,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 p\cf3  \{\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 h6\cf3 ,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 a\cf3 :not(.btn):not(.dropdown-item) \{\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group-text\cf3 ,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.8\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3 ::-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3 :-moz-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3 ::-webkit-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3 :-ms-input-placeholder \{\
-  \cf4 color\cf3 : \cf5 #ebebeb\cf3 ;\
-  \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 100\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3  \{\
-  \cf4 border-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.5\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .form-control\cf3 :focus \{\
-  \cf4 border-color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : transparent;\
-  \cf4 border-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.5\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :active \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :focus,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active,\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 +\cf2 .input-group-text\cf3 :active \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .form-control\cf3 :focus+.input-group-text \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.2\cf3 );\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-[data-background-color]:not([data-background-color=\cf7 "gray"\cf3 ]) \cf2 .input-group.no-border\cf3  \cf2 .input-group-text\cf3  \{\
-  \cf4 background-color\cf3 : \cf6 rgba\cf3 (\cf5 255\cf3 , \cf5 255\cf3 , \cf5 255\cf3 , \cf5 0.1\cf3 );\
-  \cf4 border\cf3 : none;\
-  \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf8 @media\cf3  screen \cf8 and\cf3  (\cf4 max-width:\cf3  \cf5 991px\cf3 ) \{\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar-collapse\cf3  \{\
-    \cf4 position\cf3 : fixed;\
-    \cf4 display\cf3 : block;\
-    \cf4 top\cf3 : \cf5 0\cf3 ;\
-    \cf4 height\cf3 : \cf5 100%\cf3  \cf6 !important\cf3 ;\
-    \cf4 width\cf3 : \cf5 300px\cf3 ;\
-    \cf4 right\cf3 : \cf5 0\cf3 ;\
-    \cf4 z-index\cf3 : \cf5 1032\cf3 ;\
-    \cf4 visibility\cf3 : visible;\
-    \cf4 background-color\cf3 : \cf5 #999\cf3 ;\
-    \cf4 overflow-y\cf3 : visible;\
-    \cf4 border-top\cf3 : none;\
-    \cf4 text-align\cf3 : left;\
-    \cf4 max-height\cf3 : none \cf6 !important\cf3 ;\
-    \cf4 -webkit-transform\cf3 : \cf6 translate3d\cf3 (\cf5 300px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -moz-transform\cf3 : \cf6 translate3d\cf3 (\cf5 300px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -o-transform\cf3 : \cf6 translate3d\cf3 (\cf5 300px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -ms-transform\cf3 : \cf6 translate3d\cf3 (\cf5 300px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 transform\cf3 : \cf6 translate3d\cf3 (\cf5 300px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -webkit-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -moz-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -o-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -ms-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar-collapse\cf3 :before \{\
-    \cf4 background\cf3 : \cf5 #f96332\cf3 ;\
-    \cf4 background\cf3 : \cf6 -webkit-linear-gradient\cf3 (#f96332 \cf5 0%\cf3 , #\cf5 000\cf3  \cf5 80%\cf3 );\
-    \cf4 background\cf3 : \cf6 -o-linear-gradient\cf3 (#f96332 \cf5 0%\cf3 , #\cf5 000\cf3  \cf5 80%\cf3 );\
-    \cf4 background\cf3 : \cf6 -moz-linear-gradient\cf3 (#f96332 \cf5 0%\cf3 , #\cf5 000\cf3  \cf5 80%\cf3 );\
-    \cf4 background\cf3 : \cf6 linear-gradient\cf3 (#f96332 \cf5 0%\cf3 , #\cf5 000\cf3  \cf5 80%\cf3 );\
-    \cf4 opacity\cf3 : \cf5 0.76\cf3 ;\
-    \cf4 filter\cf3 : \cf6 alpha\cf3 (opacity=\cf5 76\cf3 );\
-    \cf4 display\cf3 : block;\
-    \cf4 content\cf3 : \cf7 ""\cf3 ;\
-    \cf4 position\cf3 : absolute;\
-    \cf4 width\cf3 : \cf5 100%\cf3 ;\
-    \cf4 height\cf3 : \cf5 100%\cf3 ;\
-    \cf4 top\cf3 : \cf5 0\cf3 ;\
-    \cf4 left\cf3 : \cf5 0\cf3 ;\
-    \cf4 z-index\cf3 : -\cf5 1\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar-collapse\cf3  \cf2 .navbar-nav\cf3 :not(.navbar-logo) \cf2 .nav-link\cf3  \{\
-    \cf4 margin\cf3 : \cf5 0\cf3  \cf5 1rem\cf3 ;\
-    \cf4 margin-top\cf3 : \cf5 0.3125rem\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar-collapse\cf3  \cf2 .navbar-nav\cf3 :not(.navbar-logo) \cf2 .nav-link\cf3 :not(.btn) \{\
-    \cf4 color\cf3 : \cf5 #FFFFFF\cf3  \cf6 !important\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar-collapse\cf3  \cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3  \{\
-    \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .navbar-nav\cf3  \{\
-    \cf4 margin-top\cf3 : \cf5 53px\cf3 ;\
-    \cf4 position\cf3 : relative;\
-    \cf4 max-height\cf3 : \cf6 calc\cf3 (\cf5 100vh\cf3  - \cf5 75px\cf3 );\
-    \cf4 min-height\cf3 : \cf5 100%\cf3 ;\
-    \cf4 overflow\cf3 : auto;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown\cf3  \cf2 .dropdown-menu\cf3  \{\
-    \cf4 background-color\cf3 : transparent;\
-    \cf4 border\cf3 : \cf5 0\cf3 ;\
-    \cf4 transition\cf3 : none;\
-    \cf4 -webkit-box-shadow\cf3 : none;\
-    \cf4 box-shadow\cf3 : none;\
-    \cf4 width\cf3 : auto;\
-    \cf4 margin\cf3 : \cf5 0\cf3  \cf5 1rem\cf3 ;\
-    \cf4 margin-bottom\cf3 : \cf5 15px\cf3 ;\
-    \cf4 padding-top\cf3 : \cf5 0\cf3 ;\
-    \cf4 height\cf3 : \cf5 125px\cf3 ;\
-    \cf4 overflow-y\cf3 : scroll;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown\cf3  \cf2 .dropdown-menu\cf3 :before \{\
-    \cf4 display\cf3 : none;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown\cf3  \cf2 .dropdown-item\cf3  \{\
-    \cf4 padding-left\cf3 : \cf5 2.5rem\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown\cf3  \cf2 .dropdown-menu\cf3  \{\
-    \cf4 display\cf3 : none;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :focus,\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3 :hover \{\
-    \cf4 color\cf3 : \cf5 #FFFFFF\cf3 ;\
-    \cf4 border-radius\cf3 : \cf5 0.1875rem\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .navbar-translate\cf3  \{\
-    \cf4 width\cf3 : \cf5 100%\cf3 ;\
-    \cf4 position\cf3 : relative;\
-    \cf4 display\cf3 : flex;\
-    \cf4 -ms-flex-pack\cf3 : justify \cf6 !important\cf3 ;\
-    \cf4 justify-content\cf3 : space-between \cf6 !important\cf3 ;\
-    \cf4 -ms-flex-align\cf3 : center;\
-    \cf4 align-items\cf3 : center;\
-    \cf4 -webkit-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -moz-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -o-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -ms-transform\cf3 : \cf6 translate3d\cf3 (\cf5 0px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 transform\cf3 : \cf6 translate3d\cf3 (\cf5 0px\cf3 , \cf5 0\cf3 , \cf5 0\cf3 );\
-    \cf4 -webkit-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -moz-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -o-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 -ms-transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-    \cf4 transition\cf3 : all \cf5 0.5s\cf3  \cf6 cubic-bezier\cf3 (\cf5 0.685\cf3 , \cf5 0.0473\cf3 , \cf5 0.346\cf3 , \cf5 1\cf3 );\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .navbar-toggler-bar\cf3  \{\
-    \cf4 display\cf3 : block;\
-    \cf4 position\cf3 : relative;\
-    \cf4 width\cf3 : \cf5 22px\cf3 ;\
-    \cf4 height\cf3 : \cf5 1px\cf3 ;\
-    \cf4 border-radius\cf3 : \cf5 1px\cf3 ;\
-    \cf4 background\cf3 : \cf5 #FFFFFF\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .navbar\cf3  \cf2 .navbar-toggler-bar\cf3 +\cf2 .navbar-toggler-bar\cf3  \{\
-    \cf4 margin-top\cf3 : \cf5 7px\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .top-bar\cf3  \{\
-    \cf4 transform\cf3 : \cf6 rotate\cf3 (\cf5 0\cf3 );\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .middle-bar\cf3  \{\
-    \cf4 opacity\cf3 : \cf5 1\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .bottom-bar\cf3  \{\
-    \cf4 transform\cf3 : \cf6 rotate\cf3 (\cf5 0\cf3 );\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  \cf2 .top-bar\cf3 ,\
-  \cf2 .sidebar-collapse\cf3  \cf2 .middle-bar\cf3 ,\
-  \cf2 .sidebar-collapse\cf3  \cf2 .bottom-bar\cf3  \{\
-    \cf4 transition\cf3 : all \cf5 0.2s\cf3 ;\
-  \}\
-\
-  \cf2 .sidebar-collapse\cf3  [class*=\cf7 "navbar-expand-"\cf3 ] \cf2 .navbar-collapse\cf3  \{\
-    \cf4 width\cf3 : \cf5 300px\cf3 ;\
-  \}\
-\
-  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3  \cf2 i.fab\cf3 ,\
-  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3  \cf2 i.now-ui-icons\cf3  \{\
-    \cf4 opacity\cf3 : .\cf5 5\cf3 ;\
-  \}\
-\
-  \cf2 .button-dropdown\cf3  \{\
-    \cf4 display\cf3 : none;\
-  \}\
-\
-  \cf2 .footer\cf3  \cf2 .copyright\cf3  \{\
-    \cf4 text-align\cf3 : right;\
-  \}\
-\
-  \cf2 .navbar-nav\cf3  \cf2 .nav-link\cf3  \cf2 i.now-ui-icons\cf3  \{\
-    \cf4 opacity\cf3 : .\cf5 5\cf3 ;\
-  \}\
-\}\
-\
-\cf8 @media\cf3  screen \cf8 and\cf3  (\cf4 min-width:\cf3  \cf5 992px\cf3 ) \{\
-  \cf2 .navbar-collapse\cf3 :not(.has-image) \{\
-    \cf4 background\cf3 : transparent \cf6 !important\cf3 ;\
-  \}\
-\
-  \cf2 .navbar-nav\cf3  \cf2 .nav-link.btn\cf3 :not(.btn-sm) \{\
-    \cf4 margin\cf3 : \cf5 0\cf3 ;\
-  \}\
-\
-  \cf2 .navbar-nav\cf3  \cf2 .nav-item\cf3 :not(:last-child) \{\
-    \cf4 margin-right\cf3 : \cf5 5px\cf3 ;\
-  \}\
-\
-  \cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3  \{\
-    \cf4 color\cf3 : inherit;\
-    \cf4 display\cf3 : flex;\
-    \cf4 align-items\cf3 : center;\
-  \}\
-\
-  \cf2 .dropdown-menu\cf3  \cf2 .dropdown-item\cf3  \cf2 i\cf3  \{\
-    \cf4 margin-right\cf3 : \cf5 5px\cf3 ;\
-    \cf4 position\cf3 : relative;\
-    \cf4 top\cf3 : \cf5 1px\cf3 ;\
-  \}\
-\
-  \cf2 .footer\cf3  \cf2 .copyright\cf3  \{\
-    \cf4 float\cf3 : right;\
-  \}\
-\}\
-\
-\cf8 @media\cf3  screen \cf8 and\cf3  (\cf4 max-width:\cf3  \cf5 576px\cf3 ) \{\
-  \cf2 .navbar\cf3 [class*=\cf7 'navbar-expand-'\cf3 ] \cf2 .container\cf3  \{\
-    \cf4 margin-left\cf3 : \cf5 0\cf3 ;\
-    \cf4 margin-right\cf3 : \cf5 0\cf3 ;\
-  \}\
-\
-  \cf2 .footer\cf3  \cf2 .copyright\cf3  \{\
-    \cf4 text-align\cf3 : center;\
-  \}\
-\}\
-\
-\cf8 @media\cf3  (\cf4 max-width:\cf3  \cf5 768px\cf3 ) \{\
-  \cf2 .btn\cf3  \{\
-    \cf4 margin-bottom\cf3 : \cf5 10px\cf3 ;\
-  \}\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 #navbar\cf3  \cf2 .navbar\cf3  \{\
-  \cf4 margin-bottom\cf3 : \cf5 20px\cf3 ;\
-\}\
-\
-\cf2 #navbar\cf3  \cf2 .navbar-toggler\cf3  \{\
-  \cf4 pointer-events\cf3 : none;\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf8 @font-face\cf3  \{\
-  \cf4 font-family\cf3 : \cf7 'Nucleo Outline'\cf3 ;\
-  \cf4 src\cf3 : \cf6 url\cf3 (\cf7 "https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot"\cf3 );\
-  \cf4 src\cf3 : \cf6 url\cf3 (\cf7 "https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot"\cf3 ) \cf6 format\cf3 (\cf7 "embedded-opentype"\cf3 );\
-  \cf4 src\cf3 : \cf6 url\cf3 (\cf7 "https://raw.githack.com/creativetimofficial/now-ui-kit/master/assets/fonts/nucleo-outline.woff2"\cf3 );\
-  \cf4 font-weight\cf3 : normal;\
-  \cf4 font-style\cf3 : normal;\
-\
-\}\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 .now-ui-icons\cf3  \{\
-  \cf4 display\cf3 : inline-block;\
-  \cf4 font\cf3 : normal normal normal \cf5 14px\cf3 /\cf5 1\cf3  \cf7 'Nucleo Outline'\cf3 ;\
-  \cf4 font-size\cf3 : inherit;\
-  \cf4 speak\cf3 : none;\
-  \cf4 text-transform\cf3 : none;\
-  \cf9 /* Better Font Rendering */\cf3 \
-  \cf4 -webkit-font-smoothing\cf3 : antialiased;\
-  \cf4 -moz-osx-font-smoothing\cf3 : grayscale;\
-\}}
+.btn:hover,
+.btn:focus,
+.btn:not(:disabled):not(.disabled):active,
+.btn:not(:disabled):not(.disabled):active:focus,
+.btn:active:hover,
+.navbar .navbar-nav>a.btn:hover,
+.navbar .navbar-nav>a.btn:focus,
+.navbar .navbar-nav>a.btn:not(:disabled):not(.disabled):active,
+.navbar .navbar-nav>a.btn:not(:disabled):not(.disabled):active:focus,
+.navbar .navbar-nav>a.btn:active:hover {
+  background-color: #979797;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+.btn:hover,
+.navbar .navbar-nav>a.btn:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:focus,
+.btn:disabled:active,
+.btn[disabled],
+.btn[disabled]:hover,
+.btn[disabled]:focus,
+.btn[disabled]:active,
+.navbar .navbar-nav>a.btn:disabled,
+.navbar .navbar-nav>a.btn:disabled:hover,
+.navbar .navbar-nav>a.btn:disabled:focus,
+.navbar .navbar-nav>a.btn:disabled:active,
+.navbar .navbar-nav>a.btn[disabled],
+.navbar .navbar-nav>a.btn[disabled]:hover,
+.navbar .navbar-nav>a.btn[disabled]:focus,
+.navbar .navbar-nav>a.btn[disabled]:active {
+  background-color: #888888;
+  border-color: #888888;
+}
+
+.btn:hover,
+.btn:focus,
+.navbar .navbar-nav>a.btn:hover,
+.navbar .navbar-nav>a.btn:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  outline: 0 !important;
+}
+
+.btn:active,
+.navbar .navbar-nav>a.btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+}
+
+.btn:not(.btn-icon) .now-ui-icons,
+.navbar .navbar-nav>a.btn:not(.btn-icon) .now-ui-icons {
+  position: relative;
+  top: 1px;
+}
+
+.btn-primary {
+  background-color: #f96332;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:active:hover {
+  background-color: #fa7a50;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.btn-primary:disabled,
+.btn-primary:disabled:hover,
+.btn-primary:disabled:focus,
+.btn-primary:disabled:active,
+.btn-primary[disabled],
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:active {
+  background-color: #f96332;
+  border-color: #f96332;
+}
+
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px !important;
+  padding: 11px 23px;
+}
+
+.btn-lg {
+  font-size: 1em;
+  border-radius: 0.25rem;
+  padding: 15px 48px;
+}
+
+.form-control::-moz-placeholder {
+  color: #888888;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.form-control:-moz-placeholder {
+  color: #888888;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #888888;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.form-control:-ms-input-placeholder {
+  color: #888888;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #E3E3E3;
+  border-radius: 30px;
+  color: #2c2c2c;
+  line-height: normal;
+  font-size: 0.8571em;
+  -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border: 1px solid #f96332;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+  color: #2c2c2c;
+}
+
+.form-control:focus+.input-group-text,
+.form-control:focus~.input-group-text {
+  border: 1px solid #f96332;
+  border-left: none;
+  background-color: transparent;
+}
+
+.input-group.no-border.input-lg .input-group-text {
+  padding: 15px 0 15px 19px;
+}
+
+.input-group.no-border.input-lg .form-control {
+  padding: 23px 19px !important;
+}
+
+.input-group.no-border.input-lg .form-control+.input-group-text {
+  padding: 15px 19px 15px 0;
+}
+
+.input-group.input-lg .form-control {
+  padding: 14px 18px;
+}
+
+.input-group.input-lg .form-control+.input-group-text {
+  padding: 14px 18px 14px 0;
+}
+
+.input-group.input-lg .input-group-text {
+  padding: 14px 0 15px 18px;
+}
+
+.input-group.input-lg .input-group-text+.form-control {
+  padding: 15px 18px 15px 16px;
+}
+
+.input-group.no-border .form-control {
+  padding: 11px 19px;
+}
+
+.input-group.no-border .form-control+.input-group-text {
+  padding: 11px 19px 11px 0;
+}
+
+.input-group.no-border .input-group-text {
+  padding: 11px 0 11px 19px;
+}
+
+.input-group .form-control {
+  padding: 10px 18px 10px 18px;
+}
+
+.input-group .form-control+.input-group-text {
+  padding: 10px 18px 10px 0;
+}
+
+.input-group .input-group-text {
+  padding: 10px 0 10px 18px;
+}
+
+.input-group .input-group-text+.form-control,
+.input-group .input-group-text~.form-control {
+  padding: 10px 19px 11px 16px;
+}
+
+.input-group.no-border .form-control,
+.input-group.no-border .form-control+.input-group-text {
+  background-color: rgba(222, 222, 222, 0.3);
+  border: medium none;
+}
+
+.input-group.no-border .form-control:focus,
+.input-group.no-border .form-control:active,
+.input-group.no-border .form-control:active,
+.input-group.no-border .form-control+.input-group-text:focus,
+.input-group.no-border .form-control+.input-group-text:active,
+.input-group.no-border .form-control+.input-group-text:active {
+  border: medium none;
+  background-color: rgba(222, 222, 222, 0.5);
+}
+
+.input-group.no-border .form-control:focus+.input-group-text {
+  background-color: rgba(222, 222, 222, 0.5);
+}
+
+.input-group.no-border .input-group-prepend .input-group-text {
+  background-color: rgba(222, 222, 222, 0.3);
+  border: none;
+  border-left: transparent !important;
+}
+
+.input-group-text {
+  background-color: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  border-radius: 30px;
+  color: #555555;
+  -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.input-group-text+.form-control,
+.input-group-text~.form-control {
+  padding: -0.5rem 0.7rem;
+  padding-left: 18px;
+}
+
+.input-group-text i {
+  width: 17px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.input-group[disabled] .input-group-text {
+  background-color: #E3E3E3;
+}
+
+.input-group .input-group-prepend {
+  margin-right: 0;
+}
+
+.input-group .input-group-prepend .input-group-text {
+  border-left: 1px solid #E3E3E3;
+}
+
+.input-group .form-control:first-child,
+.input-group-text:first-child {
+  border-right: 0 none;
+}
+
+.input-group .form-control:last-child,
+.input-group-text:last-child {
+  border-left: 0 none;
+}
+
+.form-control[disabled],
+.form-control[readonly] {
+  background-color: #E3E3E3;
+  color: #888888;
+  cursor: not-allowed;
+}
+
+button,
+input {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+a {
+  color: #f96332;
+}
+
+a:hover,
+a:focus {
+  color: #f96332;
+}
+
+h6,
+.h6 {
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.61em;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.title {
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-item .nav-link,
+.navbar {
+  -webkit-transition: all 300ms ease 0s;
+  -moz-transition: all 300ms ease 0s;
+  -o-transition: all 300ms ease 0s;
+  -ms-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+}
+
+.card a {
+  -webkit-transition: all 150ms ease 0s;
+  -moz-transition: all 150ms ease 0s;
+  -o-transition: all 150ms ease 0s;
+  -ms-transition: all 150ms ease 0s;
+  transition: all 150ms ease 0s;
+}
+
+.dropdown-toggle:after,
+[data-toggle="collapse"][data-parent="#accordion"] i {
+  -webkit-transition: transform 150ms ease 0s;
+  -moz-transition: transform 150ms ease 0s;
+  -o-transition: transform 150ms ease 0s;
+  -ms-transition: all 150ms ease 0s;
+  transition: transform 150ms ease 0s;
+}
+
+.dropdown-toggle[aria-expanded="true"]:after,
+[data-toggle="collapse"][data-parent="#accordion"][aria-expanded="true"] i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.button-bar {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background: #FFFFFF;
+}
+
+.button-bar+.button-bar {
+  margin-top: 7px;
+}
+
+.button-bar:nth-child(2) {
+  width: 17px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("../fonts/nucleo-outline.eot");
+  src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes nc-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.now-ui-icons.text_caps-small:before {
+  content: "\ea1b";
+}
+
+.now-ui-icons.users_circle-08:before {
+  content: "\ea23";
+}
+
+.navbar {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  min-height: 53px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+  vertical-align: middle;
+}
+
+.navbar a:not(.btn):not(.dropdown-item) {
+  color: #FFFFFF;
+}
+
+.navbar p {
+  display: inline-block;
+  margin: 0;
+  line-height: 21px;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.navbar .navbar-nav .nav-link.btn {
+  padding: 11px 22px;
+}
+
+.navbar .navbar-nav .nav-link.btn.btn-lg {
+  padding: 15px 48px;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+  text-transform: uppercase;
+  font-size: 0.7142em;
+  padding: 0.5rem 0.7rem;
+  line-height: 1.625rem;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.fab+p,
+.navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons+p {
+  margin-left: 3px;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.fab,
+.navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons {
+  top: 4px;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:not(.btn):focus,
+.navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
+.navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.1875rem;
+}
+
+.navbar .logo-container {
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.navbar .navbar-brand {
+  text-transform: uppercase;
+  font-size: 0.8571em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.625rem;
+}
+
+.navbar .navbar-toggler {
+  width: 37px;
+  height: 27px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.navbar .navbar-toggler .navbar-toggler-bar.middle-bar {
+  width: 17px;
+  transition: width .2s linear;
+}
+
+.navbar .navbar-toggler:hover .navbar-toggler-bar.middle-bar {
+  width: 22px;
+}
+
+.navbar .button-dropdown .navbar-toggler-bar:nth-child(2) {
+  width: 17px;
+}
+
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+  color: #FFFFFF;
+  padding-top: 20px !important;
+}
+
+.bg-primary {
+  background-color: #f96332 !important;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.125rem;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-size: 14px;
+}
+
+.dropdown .dropdown-menu {
+  -webkit-transform: translate3d(0, -25px, 0) !important;
+  -moz-transform: translate3d(0, -25px, 0) !important;
+  -o-transform: translate3d(0, -25px, 0) !important;
+  -ms-transform: translate3d(0, -25px, 0) !important;
+  transform: translate3d(0, -25px, 0) !important;
+  visibility: hidden;
+  display: block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  top: 100% !important;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 0.8571em;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  margin-top: 5px;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: rgba(222, 222, 222, 0.3);
+}
+
+.dropdown-menu .dropdown-item:disabled {
+  color: rgba(182, 182, 182, 0.6);
+}
+
+.dropdown-menu .dropdown-item:disabled:hover,
+.dropdown-menu .dropdown-item:disabled:focus {
+  background-color: transparent;
+}
+
+.dropdown-menu:before {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  content: "";
+  top: -5px;
+  left: 10px;
+  right: auto;
+  color: #FFFFFF;
+  border-bottom: .4em solid;
+  border-right: .4em solid transparent;
+  border-left: .4em solid transparent;
+}
+
+.dropdown-menu .dropdown-divider {
+  background-color: rgba(222, 222, 222, 0.5);
+}
+
+.dropdown-menu .dropdown-header:not([href]):not([tabindex]) {
+  color: rgba(182, 182, 182, 0.6);
+  font-size: 0.7142em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button-dropdown {
+  padding-right: 0.7rem;
+  cursor: pointer;
+}
+
+.button-dropdown .dropdown-toggle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: block;
+}
+
+.button-dropdown .dropdown-toggle:after {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1px;
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.footer nav {
+  display: inline-block;
+  float: left;
+}
+
+.footer ul {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  color: inherit;
+  padding: 0.5rem;
+  font-size: 0.8571em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: none;
+}
+
+.footer .copyright {
+  font-size: 0.8571em;
+}
+
+.footer:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-header {
+  background-color: transparent;
+  border-bottom: 0;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.card .card-footer {
+  padding: 0;
+  margin-top: 15px;
+  background-color: transparent;
+  border: 0;
+}
+
+.card[data-background-color="orange"] {
+  background-color: #f96332;
+}
+
+.card[data-background-color="red"] {
+  background-color: #FF3636;
+}
+
+.card[data-background-color="yellow"] {
+  background-color: #FFB236;
+}
+
+.card[data-background-color="blue"] {
+  background-color: #2CA8FF;
+}
+
+.card[data-background-color="green"] {
+  background-color: #15b60d;
+}
+
+.card-plain {
+  background: transparent;
+  box-shadow: none;
+}
+
+.card-plain .card-body,
+.card-plain .card-header {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-plain .card-header:after {
+  width: 100%;
+  left: 0;
+}
+
+.login-page .page-header:before {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-page .card-login {
+  border-radius: 0.25rem;
+  padding-bottom: 0.7rem;
+  max-width: 320px;
+}
+
+.login-page .card-login .logo-container {
+  width: 65px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.login-page .card-login .logo-container img {
+  width: 100%;
+}
+
+.login-page .card-login .input-group:last-child {
+  margin-bottom: 40px;
+}
+
+.login-page .card-login.card-plain .form-control::-moz-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .form-control:-moz-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .form-control::-webkit-input-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .form-control:-ms-input-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .form-control {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .form-control:focus {
+  border-color: #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group-text {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group.no-border .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group.no-border .form-control:focus,
+.login-page .card-login.card-plain .input-group.no-border .form-control:active,
+.login-page .card-login.card-plain .input-group.no-border .form-control:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:focus,
+.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:active,
+.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group.no-border .form-control:focus+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group.no-border .input-group-text {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-group-text,
+.login-page .card-login.card-plain .input-group.no-border .input-group-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.login-page .link {
+  font-size: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.page-header {
+  min-height: 100vh;
+  max-height: 999px;
+  padding: 0;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header>.content {
+  margin-top: 12%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-header:before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header>.container {
+  z-index: 2;
+  padding-top: 12vh;
+  padding-bottom: 40px;
+}
+
+.page-header .page-header-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.page-header footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-header .container {
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+
+.page-header:after,
+.page-header:before {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  content: "";
+}
+
+.clear-filter:after,
+.clear-filter:before {
+  display: none;
+}
+
+.clear-filter[filter-color="orange"] {
+  background: rgba(44, 44, 44, 0.2);
+  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+}
+
+[data-background-color="orange"] {
+  background-color: #e95e38;
+}
+
+[data-background-color="black"] {
+  background-color: #2c2c2c;
+}
+
+[data-background-color]:not([data-background-color="gray"]) {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .title,
+[data-background-color]:not([data-background-color="gray"]) p {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) h6,
+[data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group-text,
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .input-group-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control::-moz-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control:-moz-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control::-webkit-input-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control:-ms-input-placeholder {
+  color: #ebebeb;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .form-control:focus {
+  border-color: #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group-text {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control:focus,
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control:active,
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control+.input-group-text:focus,
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control+.input-group-text:active,
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control+.input-group-text:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .form-control:focus+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .input-group.no-border .input-group-text {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse {
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100% !important;
+    width: 300px;
+    right: 0;
+    z-index: 1032;
+    visibility: visible;
+    background-color: #999;
+    overflow-y: visible;
+    border-top: none;
+    text-align: left;
+    max-height: none !important;
+    -webkit-transform: translate3d(300px, 0, 0);
+    -moz-transform: translate3d(300px, 0, 0);
+    -o-transform: translate3d(300px, 0, 0);
+    -ms-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0);
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+
+  .sidebar-collapse .navbar-collapse:before {
+    background: #f96332;
+    background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+    background: -o-linear-gradient(#f96332 0%, #000 80%);
+    background: -moz-linear-gradient(#f96332 0%, #000 80%);
+    background: linear-gradient(#f96332 0%, #000 80%);
+    opacity: 0.76;
+    filter: alpha(opacity=76);
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link {
+    margin: 0 1rem;
+    margin-top: 0.3125rem;
+  }
+
+  .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link:not(.btn) {
+    color: #FFFFFF !important;
+  }
+
+  .sidebar-collapse .navbar-collapse .dropdown-menu .dropdown-item {
+    color: #FFFFFF;
+  }
+
+  .sidebar-collapse .navbar .navbar-nav {
+    margin-top: 53px;
+    position: relative;
+    max-height: calc(100vh - 75px);
+    min-height: 100%;
+    overflow: auto;
+  }
+
+  .sidebar-collapse .navbar .dropdown .dropdown-menu {
+    background-color: transparent;
+    border: 0;
+    transition: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: auto;
+    margin: 0 1rem;
+    margin-bottom: 15px;
+    padding-top: 0;
+    height: 125px;
+    overflow-y: scroll;
+  }
+
+  .sidebar-collapse .navbar .dropdown .dropdown-menu:before {
+    display: none;
+  }
+
+  .sidebar-collapse .navbar .dropdown .dropdown-item {
+    padding-left: 2.5rem;
+  }
+
+  .sidebar-collapse .navbar .dropdown .dropdown-menu {
+    display: none;
+  }
+
+  .sidebar-collapse .navbar .dropdown-menu .dropdown-item:focus,
+  .sidebar-collapse .navbar .dropdown-menu .dropdown-item:hover {
+    color: #FFFFFF;
+    border-radius: 0.1875rem;
+  }
+
+  .sidebar-collapse .navbar .navbar-translate {
+    width: 100%;
+    position: relative;
+    display: flex;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+
+  .sidebar-collapse .navbar .navbar-toggler-bar {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 1px;
+    border-radius: 1px;
+    background: #FFFFFF;
+  }
+
+  .sidebar-collapse .navbar .navbar-toggler-bar+.navbar-toggler-bar {
+    margin-top: 7px;
+  }
+
+  .sidebar-collapse .top-bar {
+    transform: rotate(0);
+  }
+
+  .sidebar-collapse .middle-bar {
+    opacity: 1;
+  }
+
+  .sidebar-collapse .bottom-bar {
+    transform: rotate(0);
+  }
+
+  .sidebar-collapse .top-bar,
+  .sidebar-collapse .middle-bar,
+  .sidebar-collapse .bottom-bar {
+    transition: all 0.2s;
+  }
+
+  .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+    width: 300px;
+  }
+
+  .navbar-nav .nav-link i.fab,
+  .navbar-nav .nav-link i.now-ui-icons {
+    opacity: .5;
+  }
+
+  .button-dropdown {
+    display: none;
+  }
+
+  .footer .copyright {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-link i.now-ui-icons {
+    opacity: .5;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-collapse:not(.has-image) {
+    background: transparent !important;
+  }
+
+  .navbar-nav .nav-link.btn:not(.btn-sm) {
+    margin: 0;
+  }
+
+  .navbar-nav .nav-item:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown-menu .dropdown-item i {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+  }
+
+  .footer .copyright {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar[class*='navbar-expand-'] .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer .copyright {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+#navbar .navbar {
+  margin-bottom: 20px;
+}
+
+#navbar .navbar-toggler {
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot");
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot") format("embedded-opentype");
+  src: url("https://raw.githack.com/creativetimofficial/now-ui-kit/master/assets/fonts/nucleo-outline.woff2");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
